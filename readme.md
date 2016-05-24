@@ -10,7 +10,7 @@ You can check your Mac Laptop via the desktop "Apple" menu:
 
 ![About This Mac](images/about-this-mac.png)
 
-The overview tab will show you the version of MacOSX you are running as well as your display, processor, and the amount of main memory (RAM) installed in your laptop. 
+The overview tab will show you the version of MacOSX you are running as well as your display, processor, and the amount of main memory (RAM) installed in your laptop.
 
 ![About This Mac - Overview](images/about-this-mac-overview.png)
 
@@ -49,7 +49,7 @@ Below are examples of these files.
 ### .bash_profile
 
 ```bash
-echo "Hello from bash_profile"
+echo "Hello from .bash_profile"
 
 export LSCOLORS=GxFxCxDxBxegedabagaced
 export PATH=/bin:/sbin:/usr/bin:/usr/sbin:~/bin
@@ -62,7 +62,7 @@ alias path='echo -e ${PATH//:/\\n}'
 ### .bashrc
 
 ```bash
-echo "Hello from bashrc"
+echo "Hello from .bashrc"
 ```
 
 ### Why Two Configuration Files?
