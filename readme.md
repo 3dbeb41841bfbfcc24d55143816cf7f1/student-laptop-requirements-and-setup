@@ -51,7 +51,6 @@ Below are examples of these files.
 ```bash
 echo "Hello from .bash_profile"
 
-export LSCOLORS=GxFxCxDxBxegedabagaced
 export PATH=/bin:/sbin:/usr/bin:/usr/sbin:~/bin
 
 alias path='echo -e ${PATH//:/\\n}'
@@ -73,3 +72,16 @@ You can put configuration settings in either `.bash_profile` or `.bashrc`. The o
 * `.bashrc` is used for non login shells (i.e. shells that are launched to run a script or a background process).
 
 Since we often put settings in `.bashrc` that we also want to be set in a login session, we source the `.bashrc` file from the `.bash_profile` file.
+
+## Other Useful Hacks
+
+* Add OneTab Chrome Plugin
+* Setup a nice bash prompt
+  - Liquid Prompt
+* Setup some Git aliases for the _longer_ Git commands (via ~/.gitconfig), for example:
+
+```
+[alias]
+  g  = log --graph --all --branches --decorate --pretty=format:'[%C(auto)%h%Creset][%C(cyan)%an %ar%Creset]%C(auto)%d%Creset %s %C(auto)%Creset'
+  ls = log --stat --all --decorate
+```
