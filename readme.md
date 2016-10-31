@@ -87,7 +87,7 @@ Below are examples of these files.
 ```bash
 echo "Hello from .bash_profile"
 
-export PATH=/bin:/sbin:/usr/bin:/usr/sbin:~/bin
+export PATH=/usr/local/bin:$PATH
 
 alias path='echo -e ${PATH//:/\\n}'
 
