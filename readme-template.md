@@ -1,23 +1,6 @@
-<!--
-This file is auto-generated from a 'template.md'
-file using the 'md-process' script.
-Therefore *DO NOT* edit this file directly!
-Instead edit the template file and then run 'md-process'.
--->
-
 # Student Laptop Requirements and Setup
 
-## Table of Contents
-
-* [Laptop Machine](#laptop-machine)
-  * [Versions of Mac OS(X)](#versions-of-mac-osx)
-* [Administrater Rights](#administrater-rights)
-* [Login and Shell](#login-and-shell)
-* [BASH Configuration](#bash-configuration)
-  * [.bash_profile](#bashprofile)
-  * [.bashrc](#bashrc)
-  * [Why Two Configuration Files?](#why-two-configuration-files?)
-* [Other Useful Hacks](#other-useful-hacks)
+{{TOC}}
 
 ## Laptop Machine
 
